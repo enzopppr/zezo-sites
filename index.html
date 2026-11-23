@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Teste seu código HTML</title>
+    <meta name="Author" content="Fábio Borges de Oliveira">
+</head>
+<body bgcolor="#CCCCCC">
+    <center>
+        <form name="meuForm">
+            <br>
+            <textarea id="fonte" name="fonte" cols="70" rows="20">
+<html>
+<body>
+Página HTML
+<script type="text/javascript">
+<!--
+/* escreva seu código aqui.*/
+//-->
+</script>
+</body>
+</html>
+            </textarea>
+            <br><br>
+            <input type="button" value="Testar sua página" onclick="document.write(document.getElementById('fonte').value);">
+            <input type="button" value="Excluir tudo" onclick="document.getElementById('fonte').value = '';">
+        </form>
+    </center>
+</body>
+</html>
